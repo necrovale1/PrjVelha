@@ -11,27 +11,27 @@
     </ContentPage.Background>
 
     <ContentPage.Resources>
-      
         <Style TargetType="Button">
-            <Setter Property="BackgroundColor" Value="White"/>
-            <Setter Property="Opacity" Value="0.5"/>
+            <Setter Property="BackgroundColor" Value="Gray"/>
+            <Setter Property="Opacity" Value="0.5" />
             <Setter Property="CornerRadius" Value="15" />
             <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontFamily" Value="Century Gothic"/>
             <Setter Property="FontSize" Value="80" />
             <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="BorderWidth" Value="1" />
-            <Setter Property="BorderColor" Value="white" />
+            <Setter Property="BorderWidth" Value="2" />
+            <Setter Property="BorderColor" Value="GhostWhite" />
             <Setter Property="Margin" Value="2" />
         </Style>
 
     </ContentPage.Resources>
-
+    
     <Grid RowDefinitions="*, *, *, *" 
           ColumnDefinitions="*, *, *"
           ColumnSpacing="10" RowSpacing="10" Margin="10">
-        
+
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
-               Text="Jogo da Velha" />
+               Text="Jogo da Velha" FontSize="60" HorizontalTextAlignment="Center" FontFamily="Century Gothic"/>
 
         <Button x:Name="btn00" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" />
         <Button x:Name="btn01" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" />
@@ -46,5 +46,4 @@
         <Button x:Name="btn08" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" />
 
     </Grid>
-
 </ContentPage>

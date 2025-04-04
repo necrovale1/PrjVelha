@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{666C69B8-5C49-49DE-9E10-2B6B7188FDFA}|MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj|c:\\users\\labinfo\\source\\repos\\prjvelha\\mauiappjogodavelha\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{666C69B8-5C49-49DE-9E10-2B6B7188FDFA}|MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj|solutionrelative:mauiappjogodavelha\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666C69B8-5C49-49DE-9E10-2B6B7188FDFA}|MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj|c:\\users\\labinfo\\source\\repos\\prjvelha\\mauiappjogodavelha\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666C69B8-5C49-49DE-9E10-2B6B7188FDFA}|MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj|solutionrelative:mauiappjogodavelha\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "MauiAppJogoDaVelha\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MainPage.xaml.cs",
               "RelativeToolTip": "MauiAppJogoDaVelha\\MainPage.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAADwvyUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T00:22:05.662Z",
               "EditorCaption": ""
@@ -45,22 +45,9 @@
               "RelativeDocumentMoniker": "MauiAppJogoDaVelha\\MainPage.xaml",
               "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MainPage.xaml",
               "RelativeToolTip": "MauiAppJogoDaVelha\\MainPage.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-03T00:15:49.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiAppJogoDaVelha\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiProgram.cs",
-              "RelativeToolTip": "MauiAppJogoDaVelha\\MauiProgram.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T00:30:24.424Z",
               "EditorCaption": ""
             }
           ]

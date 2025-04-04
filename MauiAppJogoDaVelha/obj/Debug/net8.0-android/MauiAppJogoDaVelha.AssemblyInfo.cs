@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiAppJogoDaVelha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+81d5ea4b2d78cbb5eab3910c786853c8448a6a9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f6b151c891abb550e53b4a984fce01a9ff213041")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiAppJogoDaVelha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiAppJogoDaVelha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

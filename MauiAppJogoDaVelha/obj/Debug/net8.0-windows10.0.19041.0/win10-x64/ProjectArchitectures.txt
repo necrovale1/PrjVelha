@@ -1,1 +1,1 @@
-C:\Users\LabInfo\Source\Repos\PrjVelha\MauiAppJogoDaVelha\MauiAppJogoDaVelha.csproj;x64
+C:\Users\LabInfo\source\repos\PrjVelha\MauiAppJogoDaVelha\MauiAppJogoDaVelha.csproj;x64
