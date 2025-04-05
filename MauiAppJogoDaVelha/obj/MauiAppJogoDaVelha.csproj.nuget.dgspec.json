@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj": {}
+    "C:\\Users\\LabInfo\\Source\\Repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj": {
+    "C:\\Users\\LabInfo\\Source\\Repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj",
+        "projectUniqueName": "C:\\Users\\LabInfo\\Source\\Repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj",
         "projectName": "MauiAppJogoDaVelha",
-        "projectPath": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj",
+        "projectPath": "C:\\Users\\LabInfo\\Source\\Repos\\PrjVelha\\MauiAppJogoDaVelha\\MauiAppJogoDaVelha.csproj",
         "packagesPath": "C:\\Users\\LabInfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LabInfo\\source\\repos\\PrjVelha\\MauiAppJogoDaVelha\\obj\\",
+        "outputPath": "C:\\Users\\LabInfo\\Source\\Repos\\PrjVelha\\MauiAppJogoDaVelha\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

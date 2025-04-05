@@ -21,29 +21,40 @@
             <Setter Property="FontAttributes" Value="Bold"/>
             <Setter Property="BorderWidth" Value="2" />
             <Setter Property="BorderColor" Value="GhostWhite" />
-            <Setter Property="Margin" Value="2" />
+            <Setter Property="Margin" Value="1" />
         </Style>
-
     </ContentPage.Resources>
-    
-    <Grid RowDefinitions="*, *, *, *" 
+
+    <Grid RowDefinitions="*, *, *, *, *" 
           ColumnDefinitions="*, *, *"
-          ColumnSpacing="10" RowSpacing="10" Margin="10">
+          ColumnSpacing="5" RowSpacing="5" Margin="10">
 
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
-               Text="Jogo da Velha" FontSize="60" HorizontalTextAlignment="Center" FontFamily="Century Gothic"/>
+        <!-- Header -->
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" Padding="10">
+            <Label Text="Jogo da Velha" FontSize="30" HorizontalTextAlignment="Center" FontFamily="Century Gothic" />
+        </StackLayout>
 
-        <Button x:Name="btn00" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" />
-        <Button x:Name="btn01" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" />
-        <Button x:Name="btn02" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" />
+        <!-- Placar -->
+        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center" Padding="10">
+            <Label Text="Placar" FontSize="20" HorizontalTextAlignment="Center" FontFamily="Century Gothic"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                <Label x:Name="lblX" Text="X : " FontSize="20" FontAttributes="Bold" FontFamily="Century Gothic" TextColor="LightBlue"/>
+                <Label x:Name="lblO" Text="O : " FontSize="20" FontAttributes="Bold" FontFamily="Century Gothic" TextColor="LightPink"/>
+            </StackLayout>
+        </StackLayout>
 
-        <Button x:Name="btn03" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" />
-        <Button x:Name="btn04" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" />
-        <Button x:Name="btn05" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" />
+        <!-- Grid do Jogo -->
+        <Button x:Name="btn00" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn01" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn02" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" />
 
-        <Button x:Name="btn06" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" />
-        <Button x:Name="btn07" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" />
-        <Button x:Name="btn08" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" />
+        <Button x:Name="btn03" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn04" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn05" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" />
 
+        <Button x:Name="btn06" Grid.Row="4" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn07" Grid.Row="4" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn08" Grid.Row="4" Grid.Column="2" Clicked="Button_Clicked" />
     </Grid>
+
 </ContentPage>

@@ -7,12 +7,15 @@
         public MainPage()
         {
             InitializeComponent();
-
+          
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        int placarX = 0;
+        int placarO = 0;
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-             Button btn = (Button)sender; // var botao =  sender as Button;
+        
+            Button btn = (Button)sender; // var botao =  sender as Button;
                 //btn.Text = vez;
                 //vez = vez == "X" ? "O" : "X";
                 // ? IF e : ELSE
@@ -34,26 +37,28 @@
                 vez = "X"; //btn.Text = vez;
             }
 
-     
+
 
             /* Verificando se o X ganhou na 1ª linha */
             if (btn00.Text == "X" && btn01.Text == "X" && btn02.Text == "X"
             || btn03.Text == "X" && btn04.Text == "X" && btn05.Text == "X"
             || btn06.Text == "X" && btn07.Text == "X" && btn08.Text == "X"  // horizontal
 
-            || btn00.Text == "X" && btn03.Text == "X" && btn06.Text == "X" 
+            || btn00.Text == "X" && btn03.Text == "X" && btn06.Text == "X"
             || btn01.Text == "X" && btn04.Text == "X" && btn07.Text == "X"
             || btn02.Text == "X" && btn05.Text == "X" && btn08.Text == "X" // vertical
 
             || btn00.Text == "X" && btn04.Text == "X" && btn08.Text == "X" // diaognal
-            || btn02.Text == "X" && btn04.Text == "X" && btn06.Text == "X") 
-           
-            { 
-                DisplayAlert("Parabéns!", "o Jogador X ganhou!", "OK");
-                Zerar();
-            }
+            || btn02.Text == "X" && btn04.Text == "X" && btn06.Text == "X")
 
-            if (btn00.Text == "O" && btn01.Text == "O" && btn02.Text == "O"
+            {
+                placarX++;
+                lblX.Text = "X : " + placarX.ToString();
+                await this.DisplayAlert("Parabéns!", "O Jogador X ganhou!", "OK"); // espera o click no alert
+                Zerar();
+
+            }
+            else if (btn00.Text == "O" && btn01.Text == "O" && btn02.Text == "O"
             || btn03.Text == "O" && btn04.Text == "O" && btn05.Text == "O"
             || btn06.Text == "O" && btn07.Text == "O" && btn08.Text == "O"  // horizontal
 
@@ -65,9 +70,14 @@
             || btn02.Text == "O" && btn04.Text == "O" && btn06.Text == "O")
 
             {
-                DisplayAlert("Parabéns!", "o Jogador O ganhou!", "OK");
+                placarO++;
+                lblO.Text = "O : " + placarO.ToString();
+                await this.DisplayAlert("Parabéns!", "O Jogador O ganhou!", "OK");  // espera o click no alert
                 Zerar();
 
+            }
+            else { 
+                
             }
 
 
